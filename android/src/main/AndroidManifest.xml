@@ -1,6 +1,24 @@
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.zxx.three.rice">
+    <application>
+        <meta-data android:name="rice_appId" android:value="${rice_appId}"/>
+        <meta-data android:name="rice_appSecret" android:value="${rice_appSecret}"/>
+        <meta-data android:name="rice_isEnableYYMMLog" android:value="${rice_isEnableYYMMLog}"/>
 
+        <!-- 有米SDK为了兼容Android N应用间共享文件行为变更而需要配置的FileProvider -->
+        <!-- 这里主要为授予有米SDK拥有打开apk安装界面的功能 -->
+        <!-- 请务必修改 android:authorities 为贵应用的标识，一般为 包名.fileProvider -->
+        <provider
+            android:name="com.zxx.three.rice.FileProviderRice"
+            android:authorities="${applicationId}.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true" >
+
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_rice" />
+        </provider >
+    </application>
 </manifest>
   
