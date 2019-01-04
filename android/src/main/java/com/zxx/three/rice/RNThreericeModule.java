@@ -82,12 +82,30 @@ public class RNThreericeModule extends ReactContextBaseJavaModule {
     HashMap<String, Object> json = map.toHashMap();
     String style = "0";
     if(json.get("style") != null){
-      style = json.get("style").toString();
+      style = String.valueOf(json.get("style"));
     }
     String isExitTip = "0";
     if(json.get("isExitTip") != null){
-      isExitTip = json.get("isExitTip").toString();
+      isExitTip = String.valueOf(json.get("isExitTip"));
     }
+    String userid = "0";
+    if(json.get("userid") != null){
+      userid = String.valueOf(json.get("userid"));
+    }
+
+    // 有米android 积分墙sdk 5.0.0之后支持定制浏览器顶部标题栏的部分UI
+    // setOfferBrowserConfig(context);
+
+    // 如果开发者使用积分墙的服务器回调,
+    // 1.需要告诉sdk，现在采用服务器回调
+    // 2.建议开发者传入自己系统中用户id（如：邮箱账号之类的）（请限制在50个字符串以内）
+    // 3.务必在下面的OffersManager.getInstance(this).onAppLaunch();代码之前声明使用服务器回调
+
+    OffersManager.getInstance(reactContext).setUsingServerCallBack(true);
+    OffersManager.getInstance(reactContext).setCustomUserId(userid);
+
+    // 如果使用积分广告，请务必调用积分广告的初始化接口:
+    OffersManager.getInstance(reactContext).onAppLaunch();
 
     // 0全屏
     if(style.equals("0")){
