@@ -6,6 +6,10 @@
 #endif
 
 @interface RNThreerice : NSObject <RCTBridgeModule>
+@property NSString* rice_appId;
+@property NSString* rice_appSecret;
+
+- (NSString*)getValueByKey:(NSString*) key;
 
 @end
   

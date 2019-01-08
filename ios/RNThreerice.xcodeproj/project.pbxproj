@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A1B9BF5821E476AF003842A2 /* YouMiSDKStatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF5721E476AF003842A2 /* YouMiSDKStatic.a */; };
+		A1B9BF5B21E47740003842A2 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF5A21E47740003842A2 /* CoreMotion.framework */; };
+		A1B9BF5D21E47752003842A2 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF5C21E47752003842A2 /* StoreKit.framework */; };
+		A1B9BF5F21E4775C003842A2 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF5E21E4775C003842A2 /* Security.framework */; };
+		A1B9BF6121E47764003842A2 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6021E47764003842A2 /* CFNetwork.framework */; };
+		A1B9BF6321E4776E003842A2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6221E4776E003842A2 /* SystemConfiguration.framework */; };
+		A1B9BF6521E4777E003842A2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6421E4777E003842A2 /* CoreGraphics.framework */; };
+		A1B9BF6721E47787003842A2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6621E47787003842A2 /* UIKit.framework */; };
+		A1B9BF6921E47792003842A2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6821E47792003842A2 /* Foundation.framework */; };
+		A1B9BF6B21E47D33003842A2 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6A21E47D33003842A2 /* libicucore.tbd */; };
+		A1B9BF6D21E47D50003842A2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6C21E47D50003842A2 /* libz.tbd */; };
+		A1B9BF6F21E47D5C003842A2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF6E21E47D5C003842A2 /* libsqlite3.tbd */; };
+		A1B9BF7121E4878D003842A2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B9BF7021E4878D003842A2 /* AdSupport.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNThreerice.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNThreerice.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +37,22 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNThreerice.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNThreerice.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B9BF5421E476AF003842A2 /* UMWSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMWSDK.h; sourceTree = "<group>"; };
+		A1B9BF5521E476AF003842A2 /* UMWSourceData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMWSourceData.h; sourceTree = "<group>"; };
+		A1B9BF5621E476AF003842A2 /* publicconfuse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = publicconfuse.h; sourceTree = "<group>"; };
+		A1B9BF5721E476AF003842A2 /* YouMiSDKStatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = YouMiSDKStatic.a; sourceTree = "<group>"; };
+		A1B9BF5A21E47740003842A2 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		A1B9BF5C21E47752003842A2 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A1B9BF5E21E4775C003842A2 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		A1B9BF6021E47764003842A2 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		A1B9BF6221E4776E003842A2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1B9BF6421E4777E003842A2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A1B9BF6621E47787003842A2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A1B9BF6821E47792003842A2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A1B9BF6A21E47D33003842A2 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		A1B9BF6C21E47D50003842A2 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A1B9BF6E21E47D5C003842A2 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		A1B9BF7021E4878D003842A2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B3E7B5881CC2AC0600A0062D /* RNThreerice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNThreerice.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNThreerice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNThreerice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +62,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1B9BF7121E4878D003842A2 /* AdSupport.framework in Frameworks */,
+				A1B9BF6F21E47D5C003842A2 /* libsqlite3.tbd in Frameworks */,
+				A1B9BF6D21E47D50003842A2 /* libz.tbd in Frameworks */,
+				A1B9BF6B21E47D33003842A2 /* libicucore.tbd in Frameworks */,
+				A1B9BF6921E47792003842A2 /* Foundation.framework in Frameworks */,
+				A1B9BF6721E47787003842A2 /* UIKit.framework in Frameworks */,
+				A1B9BF6521E4777E003842A2 /* CoreGraphics.framework in Frameworks */,
+				A1B9BF6321E4776E003842A2 /* SystemConfiguration.framework in Frameworks */,
+				A1B9BF6121E47764003842A2 /* CFNetwork.framework in Frameworks */,
+				A1B9BF5F21E4775C003842A2 /* Security.framework in Frameworks */,
+				A1B9BF5D21E47752003842A2 /* StoreKit.framework in Frameworks */,
+				A1B9BF5B21E47740003842A2 /* CoreMotion.framework in Frameworks */,
+				A1B9BF5821E476AF003842A2 /* YouMiSDKStatic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,10 +92,50 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				A1B9BF5221E476AF003842A2 /* lib */,
 				B3E7B5881CC2AC0600A0062D /* RNThreerice.h */,
 				B3E7B5891CC2AC0600A0062D /* RNThreerice.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				A1B9BF5921E47740003842A2 /* Frameworks */,
 			);
+			sourceTree = "<group>";
+		};
+		A1B9BF5221E476AF003842A2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9BF5321E476AF003842A2 /* include */,
+				A1B9BF5621E476AF003842A2 /* publicconfuse.h */,
+				A1B9BF5721E476AF003842A2 /* YouMiSDKStatic.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		A1B9BF5321E476AF003842A2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9BF5421E476AF003842A2 /* UMWSDK.h */,
+				A1B9BF5521E476AF003842A2 /* UMWSourceData.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		A1B9BF5921E47740003842A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B9BF7021E4878D003842A2 /* AdSupport.framework */,
+				A1B9BF6E21E47D5C003842A2 /* libsqlite3.tbd */,
+				A1B9BF6C21E47D50003842A2 /* libz.tbd */,
+				A1B9BF6A21E47D33003842A2 /* libicucore.tbd */,
+				A1B9BF6821E47792003842A2 /* Foundation.framework */,
+				A1B9BF6621E47787003842A2 /* UIKit.framework */,
+				A1B9BF6421E4777E003842A2 /* CoreGraphics.framework */,
+				A1B9BF6221E4776E003842A2 /* SystemConfiguration.framework */,
+				A1B9BF6021E47764003842A2 /* CFNetwork.framework */,
+				A1B9BF5E21E4775C003842A2 /* Security.framework */,
+				A1B9BF5C21E47752003842A2 /* StoreKit.framework */,
+				A1B9BF5A21E47740003842A2 /* CoreMotion.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,12 +286,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNThreerice;
 				SKIP_INSTALL = YES;
@@ -225,7 +310,10 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/lib",
+				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNThreerice;
 				SKIP_INSTALL = YES;
