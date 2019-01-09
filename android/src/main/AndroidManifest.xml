@@ -10,10 +10,10 @@
         <!-- 这里主要为授予有米SDK拥有打开apk安装界面的功能 -->
         <!-- 请务必修改 android:authorities 为贵应用的标识，一般为 包名.fileProvider -->
         <provider
-            android:name="com.zxx.three.rice.FileProviderRice"
+            android:name="android.support.v4.content.FileProvider"
             android:authorities="${applicationId}.fileProvider"
             android:exported="false"
-            android:grantUriPermissions="true" >
+            android:grantUriPermissions="true">
 
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
